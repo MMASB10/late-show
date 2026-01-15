@@ -4,23 +4,17 @@ A simple Flask REST API for managing episodes, guests, and appearances on a late
 
 ## Setup
 
-1. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Seed the database:
+2. Seed the database:
 ```bash
 python seed.py
 ```
 
-4. Run the application:
+3. Run the application:
 ```bash
 python app.py
 ```
